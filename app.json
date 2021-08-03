@@ -1,8 +1,8 @@
 {
-  "name": "Innexia Music",
+  "name": "Jack Music",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/DarkCybers/InnexiaMusic",
+  "repository": "https://github.com/vedamithra430/InnexiaMusic",
   "stack": "container",
   "buildpacks": [
    {
@@ -30,12 +30,12 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "SiderzChat"
+      "value": "anymodapps"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "SiderzTeam"
+      "value": "Jackmusic"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
@@ -44,7 +44,7 @@
     "ARQ_API_KEY": {
       "description": "Get from @ARQRobot.",
       "required": false,
-      "value": "VKSSQH-SRNJYZ-MSOJAI-QALESR-ARQ"
+      "value": "URBSBG-JIUZMW-GZPQAB-MUHARW-ARQ"
     },    
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
@@ -54,7 +54,7 @@
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "SiderzBot"
+      "value": "teletechlogic"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
