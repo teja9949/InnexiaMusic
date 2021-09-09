@@ -1257,8 +1257,8 @@ async def lol_cb(b, cb):
         
     #broadcast  
     
-    @Client.on_message(filters.command("start") & filters.private)
-    async def startprivate(client, message):
+@Client.on_message(filters.command("start") & filters.private)
+async def startprivate(client, message):
     # return
     chat_id = message.from_user.id
     if not await db.is_user_exist(chat_id):
