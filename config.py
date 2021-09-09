@@ -28,3 +28,8 @@ LOG_GRP = getenv("LOG_GRP", None)
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+DB_URL = os.environ.get("DB_URL", "")
+DB_NAME = os.environ.get("DB_NAME", "JackMusic")
+BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
