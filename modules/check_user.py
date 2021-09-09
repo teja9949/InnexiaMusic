@@ -4,7 +4,7 @@
 import datetime
 
 import config
-from handlers.database import Database
+from modules.database import Database
 
 DB_URL = config.DB_URL
 DB_NAME = config.DB_NAME
